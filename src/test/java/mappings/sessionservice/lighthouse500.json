@@ -1,0 +1,17 @@
+{
+    "request": {
+      "urlPathPattern": "/v1/location/error",
+      "method": "GET"
+    },
+    "response": {
+      "status": 500,
+      "jsonBody": {
+        "message": {
+          "error": "location not found"
+        }
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }

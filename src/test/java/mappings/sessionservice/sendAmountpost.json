@@ -1,0 +1,19 @@
+{
+
+    "request": {
+      "urlPathPattern": "/example/api/user/1000",
+      "method": "POST"
+    },
+    "response": {
+      "status": 201,
+      "jsonBody": {
+        "transaction_message": {
+          "message": "success"
+        }
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+  

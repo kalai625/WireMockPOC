@@ -1,0 +1,19 @@
+{
+    "request": {
+      "urlPathPattern": "/api/transactions",
+      "method": "POST"
+    },
+    "response": {
+      "status": 201,
+      "jsonBody": {
+        "transaction": {
+          "Amount": "RS 5000/-",
+          "status": "received",
+          "message": "Transaction received successfully"
+        }
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }

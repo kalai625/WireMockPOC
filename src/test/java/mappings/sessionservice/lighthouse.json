@@ -1,0 +1,19 @@
+{
+    "request": {
+      "urlPathPattern": "/v1/location",
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "jsonBody": {
+        "company_info": {
+          "ZIPCODE": "636903",
+          "country": "INDIA",
+          "location": "SALEM"
+        }
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }

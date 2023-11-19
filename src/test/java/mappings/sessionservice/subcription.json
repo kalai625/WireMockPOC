@@ -1,0 +1,20 @@
+{
+
+    "request": {
+        "urlPathPattern": "/subcription",
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "subcription_info": {
+                "amount": "499",
+                "validity": "28 days",
+                "device": "MACBOOK_LAP"
+            }
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
